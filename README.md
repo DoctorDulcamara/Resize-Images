@@ -5,6 +5,8 @@ This will take a folder full of images taken with, say your phone, optimize them
 
 You can then upload the optimized images to your website.
 
+Before you start, make sure you have imported the image library PILLOW using pip.
+
 You have to change the path to the point to the folder on your machine.
 
 You can change the size of the resized images, for example the code resizes landscape images to 3264px by 2448px. You can change these values on lines 36, 40 and 44 (depending on landscape, portrait or square) to suit your own requirements.

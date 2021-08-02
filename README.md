@@ -1,6 +1,8 @@
 # Resize-Images
 Code to resize images for the web
 
+This will take a folder full of images taken with, say your phone, optimize them for the web and place the resized images in a folder called 'web/' located inside the existing folder. The original images will not be altered.
+
 You can then upload the optimized images to your website.
 
 You have to change the path to the point to the folder on your machine.
@@ -11,4 +13,4 @@ On line 18 we have "im = ImageOps.exif_transpose(im)". Mobile phones don't know 
 
 Once you have your folder path and target size sorted, you can then run the code. I open the code in Visual Studio Code and run the code by pressing Ctrl+Alt+N. You will need the Python extension loaded.# Resize-Images
 
-Code to resize images for the web. This will take a folder full of images taken with, say your phone, optimize them for the web and place the resized images in a folder called 'web/' located inside the existing folder. The original images will not be altered.
+Make sure the Python script and all images are installed on your local machine. The code wont work if you point to a remote path such as Dropbox.

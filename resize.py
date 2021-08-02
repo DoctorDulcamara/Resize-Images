@@ -1,13 +1,11 @@
 
 #!/usr/bin/python
-# location of this file: C:/Users/malco/Pictures/Englefield House/resize.py
+# location of this file: C:/Users/myfolder/Pictures/Englefield House/resize.py
 from PIL import Image, ImageOps
 import os, sys
 
 # change path below to point to the folder containing your images
-path = "C:/Users/malco/Pictures/Englefield House/"
-#path = "C:/Users/malco/Dropbox/Camera Uploads/Museums/Elesecar Barnsley 2019-09/"
-#path = "C:/Users/malco/Pictures/resize/images/"
+path = "C:/Users/myfolder/Pictures/Englefield House/"
 
 dirs = os.listdir( path )
 
